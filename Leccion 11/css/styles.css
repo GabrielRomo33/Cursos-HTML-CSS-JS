@@ -1,0 +1,63 @@
+/* html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    background: linear-gradient(#F72585,#3A0CA3); 
+    background: linear-gradient(to right,#F72585,#3A0CA3);
+    background: linear-gradient(#24404D,#6DBFF1,Black);
+    background: linear-gradient(to bottom right,#24404D,#6DBFF1,Black);
+    background: linear-gradient(90deg,#24404D,#6DBFF1,Black);
+    background: radial-gradient(circle,#24404D,#6DBFF1,Black);
+    background: radial-gradient(circle,#0D47A1,#64B4F5DC);
+}  */
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px #A8DADC;
+    color: #E6394E;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #A8DADC;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: #457B9D;
+    border-radius: 15px;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+}
+div.cabecero{
+    background-color: #4CC9F0;
+}
+div.cuerpo{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(177, 177, 177);
+}
+/*div.contenedor p::selection{
+    color: red;
+    background-color: yellow;
+}
+div.contenedor p::first-line{
+    font-variant: small-caps;
+}
+div.contenedor p::first-letter{
+    font-size: 1.5em;
+    color: red;
+}
+div.contenedor p::before{
+    content: "- ";
+}
+div.contenedor p::after{
+    content: " -";
+    font-size: 1.5em;
+    color: red;
+} */

@@ -1,0 +1,30 @@
+*{
+    color: #f1f2f1f2;
+}
+body{
+    background-color: #0c0d02;
+}
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+/* h1{
+    display: none;
+}
+p{
+    visibility: hidden;
+} */
+span{
+    display: inline;
+    border: 1px solid blueviolet;
+}
+a {
+    display: block;
+}
+
+li
+{
+    display: inline;
+}
