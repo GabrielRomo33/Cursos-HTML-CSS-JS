@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Comes Down</title>
+</head>
+<body>
+    <!-- onclick="cambiarTexto(this);" -->
+    <!-- onmousedown="Color(this)"
+    onmouseup="other(this)"
+    onclick="red(this)" -->
+    <h1 id="titulo" style="color: purple;">Heavy Duty</h1>
+    <button onclick="Mostrar()">Mostrar</button>
+    <form id="formu" action="">
+        Name: <input type="text" id="nombre"/>
+        Last Name: <input type="text" id="apellido"/>
+        <br />
+    </form>
+    <!-- Name: <input type="text" onchange="convertir(this)"> -->
+    <!-- <div id="mostrar"></div> -->
+    <img id="turbo" src="https://m.media-amazon.com/images/I/71WXShqv-8L._UF1000,1000_QL80_.jpg" alt="">
+</body>
+<script>
+
+    const formu = document.getElementById('formu');
+    formu.addEventListener('focus', (evento) => {
+        evento.target.style.background = 'blue';
+    },true);
+    formu.addEventListener('blur', (evento) => {
+        evento.target.style.background = 'purple';
+    },true);
+    // document.getElementById('nombre').addEventListener('focus', (evento) => {
+    //     evento.target.style.background = 'blue';
+    // });
+    // document.getElementById('nombre').addEventListener('blur', (evento) => {
+    //     evento.target.style.background = 'purple';
+    // });
+    // document.getElementById('apellido').addEventListener('focus', cambiar);
+    // document.getElementById('apellido').addEventListener('blur', regresar);
+    // function cambiar(evento){
+    //     let componente = evento.target;
+    //     componente.style.background = 'blue';
+    // }
+    // function regresar(evento){
+    //     let component = evento.target;
+    //     component.style.background = 'purple'
+    // }
+</script>
+</html>
+<!-- // function cambiar(elementInput){
+//     elementInput.style.background = 'yellow';
+// }
+// function regresar(elementInput){
+//     elementInput.style.background = 'crimson';
+// } -->
+<!-- // function Mostrar(){
+//     document.write('Defenders of the Faith');
+// }
+// function Mostrar(){
+    // document.getElementById('titulo').innerHTML += '<br/> Turbo Lover';
+    // document.getElementById('titulo').style.color = 'blue';
+    // document.getElementById('turbo').src = 'https://i.etsystatic.com/18743265/r/il/bc2cc5/2323964800/il_1080xN.2323964800_d1j9.jpg';
+// }
+// document.write('The Sentinel');
+// function cambiarTexto(titulo){
+//     titulo.innerHTML = 'Out in the Could';
+// }
+// document.getElementById('titulo').onclick = cambiarTexto;
+// function cambiarTexto(){
+//     document.getElementById('mostrar').innerHTML = 'Out in the Could';
+// }
+// function entrar(){
+//     alert('For Love');
+//     let texto = '';
+//     if(navigator.cookieEnabled){
+//         texto = 'Reckless';
+//     }
+//     else{
+//         texto = 'Ram it Down';
+//     }
+//     document.getElementById('mostrar').innerHTML = texto;
+// }
+// function convertir(nombreImput){
+//     nombreImput.value = nombreImput.value.toUpperCase();
+// }
+// function Color(titulo){
+//     titulo.style.color = 'Blue';
+// }
+// function other(titulo){
+//     titulo.style.color = 'purple';
+// }
+// function red(titulo){
+//     titulo.style.color = 'red';
+// } -->

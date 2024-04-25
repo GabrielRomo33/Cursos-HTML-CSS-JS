@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Before the Down</title>
+    <style>
+        .azul{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ejemplo DOM</h1>
-    <p>Saludos!</p>
+    <h1 id="cabecero" class="azul">Ejemplo DOM</h1>
+    <p id="parrafo1" class="azul">Bloodstone!</p>
+    <p id="parrafo2" class="azul">Fever</p>
 <script>
-    console.log('Evil');
-    
+    // let cabecero = document.getElementById('cabecero');
+    // let parrafo1 = document.getElementById('parrafo1');
+    // console.log(cabecero.innerHTML);
+    // console.log(parrafo1.innerHTML);
+    // parrafo1.innerHTML = 'youve Got Another Thing Coming';
+    // cabecero.innerHTML = 'Screaming For Vengance'
+    // let elementos = document.getElementsByClassName('azul');
+    let elementos = document.querySelectorAll('.azul');
+    console.log(elementos.length)
+
+    // for (let index = 0; index < elementos.length; index++) {
+    //     console.log(elementos[index].innerHTML);
+    // }
+    for(let elemento of elementos){
+        console.log(elemento.innerHTML);
+    }
 </script>
 </body>
 </html>
